@@ -138,3 +138,21 @@ task1 + task1 의 결과가 제대로 출력되도록 할 것
 UISegmentedControl 에서 값을 선택한 뒤 버튼을 누르면 그 값이 FirstVC 의 Label 에 표시되도록 구현
 --------------------------
 
+* 20190404: [과제]
+ 1.
+FirstVC 의 TextField 에 입력한 값을 SecondVC 의 Label에 표시하기
+- UserDefaults 를 이용한 방법으로 구현
+- Singleton 을 이용한 방법으로 구현
+- Delegate 를 이용한 방법으로 구현
+by.강사님
+
+2. 
+Singleton 에 red, green, blue 변수 생성.
+firstview 에 UISlider 를 세개 생성하고 슬라이더 각각의 값을 Singleton 에 각각 저장.
+secondview 에 backgroundcolor 를 singleton 에서 red, green, blue 값을 참조하여 보여주세요.
+(코드로 구현하시오.)
+by.클래스매니저님
+
+--------------------
+
+

@@ -220,16 +220,21 @@ by.강사님
 
 FirstViewController 에서 SecondViewController 를 Present 할때
 
-```let secondVC = SecondViewController()
+``let secondVC = SecondViewController()
 secondVC.modalPresentationStyle = .overCurrentContext
 present(secondVC, animated: true)```
 
 
 위 코드를 작성.
 
-```secondVC.modalPresentationStyle = .overCurrentContext```
+``secondVC.modalPresentationStyle = .overCurrentContext```
 
 는 present 하게 되었을때 이전 ViewController 를 뒤에 보여줍니다. (edited) 
-
 by. 클래스매니저님
 
+--------------------
+* 20190410 [실습]
+Sington_Example 
+Delegate_Example
+by.클래스매니저님
+ 

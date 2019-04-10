@@ -41,7 +41,6 @@ class BViewController: UIViewController {
             aVC.count += 1
         }
         
-        
         presentingViewController?.dismiss(animated: true)
     }
     

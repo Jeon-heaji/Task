@@ -110,3 +110,31 @@
 2. ViewController 데이터 전달
 > AViewController 와 BViewController 를 만들고 각각 하나의 Label 생성.
 > AViewController 와 BViewController 를 전환할 때마다 각 Label 에 화면을 전환한 숫자 1씩 증가
+
+-----------------------
+
+* 20190402: [ 과제 ]
+1. 
+func addTwoValues(a: Int, b: Int) -> Int {
+return a + b
+}
+let task1: Any = addTwoValues(a: 2, b: 3)
+위와 같이 task1 이라는 변수가 있을 때
+task1 + task1 의 결과가 제대로 출력되도록 할 것
+
+2. 스토리보드 이용할 것
+- FirstVC 에 Dog, Cat, Bird 라는 이름의 Button을 3개 만들고 숫자를 표시하기 위한 Label 하나 생성
+- SecondVC 에 UIImageView 하나와 Dismiss 를 위한 버튼 하나 생성
+- FirstVC에 있는 버튼 3개 중 하나를 누르면 그 타이틀에 맞는 이미지를 SecondVC의 ImageView 에 넣기 
+(이미지는 구글링 등을 통해 활용)
+- 각 버튼별로 전환 횟수를 세서 개는 8회, 고양이는 10회, 새는 15회가 초과되면 화면이 전환되지 않도록 막기
+(전환 횟수가 초과된 버튼은 그것만 막고, 횟수가 초과되지 않은 버튼으로는 전환 가능)
+- 그리고 SecondVC 에 추가로 UIButton 을 하나 더 생성하여 그 버튼을 누를 때마다 전환 횟수를 계산하는 값이 개와 고양이, 새 모두에 대해 1회씩 추가되도록 구현
+
+3. 
+- FirstVC 에 텍스트가 -1인 UILabel 과 SecondVC 를 띄우기 위한 UIButton 생성
+- SecondVC 에는 4개(10, 20, 30, 40)의 segment를 가진 UISegmentedControl,
+그리고 FirstVC 로 돌아가기 위한 UIButton 생성
+UISegmentedControl 에서 값을 선택한 뒤 버튼을 누르면 그 값이 FirstVC 의 Label 에 표시되도록 구현
+--------------------------
+

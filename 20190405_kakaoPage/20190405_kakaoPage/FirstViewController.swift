@@ -63,6 +63,5 @@ extension FirstViewController: AddToFriendsViewControllerDelegate {
         }
         
         friendsLabel.text = temp
-        
     }
 }

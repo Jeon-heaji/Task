@@ -148,14 +148,14 @@ FirstVC 의 TextField 에 입력한 값을 SecondVC 의 Label에 표시하기
 - UserDefaults 를 이용한 방법으로 구현
 - Singleton 을 이용한 방법으로 구현
 - Delegate 를 이용한 방법으로 구현
-by.강사님
+> by.강사님
 
 2. 
 Singleton 에 red, green, blue 변수 생성.
 firstview 에 UISlider 를 세개 생성하고 슬라이더 각각의 값을 Singleton 에 각각 저장.
 secondview 에 backgroundcolor 를 singleton 에서 red, green, blue 값을 참조하여 보여주세요.
 (코드로 구현하시오.)
-by.클래스매니저님
+> by.클래스매니저님
 
 --------------------
 
@@ -180,7 +180,7 @@ by.클래스매니저님
 
 회원가입 페이지를 만든 뒤 회원 가입한 유저의 아이디와 비밀번호를 추가하고
 그것으로도 로그인 할 수 있도록 구현하기
-by. 강사님
+> by. 강사님
 
 [클매과제]
 
@@ -193,7 +193,7 @@ by. 강사님
 5. 첫번째 ViewController 에 돌아왔을때 친구목록 Label 에 이름 표시
 
 ps. (도전과제) 추가된 친구의 이름을 델리게이트패턴으로 구현해주세요~
-by.클래스매니저님
+> by.클래스매니저님
 
 ------------------------------
 *20190409: [과제]
@@ -208,7 +208,7 @@ e.g.
 3번째 뷰의 width는 2번째 뷰 width의 0.7배보다 2 작게 설정
 - storyboard
 - code
-by.강사님
+> by.강사님
 
 2.
 [클매과제]
@@ -230,11 +230,39 @@ present(secondVC, animated: true)```
 ``secondVC.modalPresentationStyle = .overCurrentContext```
 
 는 present 하게 되었을때 이전 ViewController 를 뒤에 보여줍니다. (edited) 
-by. 클래스매니저님
+> by. 클래스매니저님
 
 --------------------
-* 20190410 [실습]
+* 20190410: [실습]
 Sington_Example 
 Delegate_Example
 by.클래스매니저님
  
+---------------------------
+* 20190411: [과제]
+1. 생성자 구현
+- Vehicle 클래스에 지정 이니셜라이져(Designated Initializer) 추가
+- Car 클래스에 modelYear 또는 numberOfSeat가 0 이하일 때 nil을 반환하는 Failable Initializer 추가
+- Bus 클래스에 지정 이니셜라이져를 추가하고, maxSpeed를 100으로 기본 할당해주는 편의 이니셜라이져 추가
+
+class Vehicle {
+let name: String
+let maxSpeed: Int
+}
+
+class Car: Vehicle {
+var modelYear: Int
+var numberOfSeats: Int
+}
+
+class Bus: Vehicle {
+let isDoubleDecker: Bool
+}
+
+2. 
+UIScrollView 에 UIPageControl을 사용하여 현재 페이지를 표시하는 화면 만들기
+(별도 이미지 참고)
+
+
+스크롤뷰 페이징 힌트
+- UIPageControl 객체 사용, Delegate 이용(scroll 관련),  pagingEnabled 속성 참고

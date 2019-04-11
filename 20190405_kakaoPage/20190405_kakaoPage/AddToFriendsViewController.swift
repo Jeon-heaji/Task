@@ -62,7 +62,6 @@ class AddToFriendsViewController: UIViewController {
         titleView.addSubview(addButton)
         
     }
-   
     
     @objc func addButtonFunc(_ sender: UIButton) {
 

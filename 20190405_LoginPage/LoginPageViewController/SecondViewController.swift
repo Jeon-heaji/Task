@@ -15,6 +15,7 @@ class SecondViewController: UIViewController {
     var signOutButton = UIButton()
     
     let user = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white

@@ -11,7 +11,7 @@ import UIKit
 final class ViewController: UIViewController {
     
     var iPhoneData: [String:[String: Int]] = [:]
-    var sectionTitle: [String] = []
+    var tempTitle: [String] = []
     
     @IBOutlet private weak var tableView: UITableView!
     
@@ -36,7 +36,7 @@ final class ViewController: UIViewController {
             "iPhoneX(SpaceGray)_1": ["max": 10, "select": 0],
             "iPhoneX(SpaceGray)_2": ["max": 10, "select": 0]
         ]
-        sectionTitle = iPhoneData.keys.shuffled()
+        tempTitle = iPhoneData.keys.shuffled()
     }
     
     func setupTableView() {
@@ -63,9 +63,9 @@ extension ViewController: UITableViewDataSource {
         
         cell.amountButton.tag = indexPath.row
         cell.delegate = self
-        cell.imgView.image = UIImage(named: sectionTitle[indexPath.row])
-        cell.iPhoneLabel.text = "\(sectionTitle[indexPath.row])"
-        cell.countLabel.text = "\(iPhoneData[sectionTitle[indexPath.row]]!["select"]!)"
+        cell.imgView.image = UIImage(named: tempTitle[indexPath.row])
+        cell.iPhoneLabel.text = "\(tempTitle[indexPath.row])"
+        cell.countLabel.text = "\(iPhoneData[tempTitle[indexPath.row]]!["select"]!)"
         
         return cell
     }
@@ -75,9 +75,9 @@ extension ViewController: ItemCellDelegate {
     func aItemCell(_ itemCell: ItemCell, didTapButton button: UIButton) {
         if let indexPath = tableView.indexPath(for: itemCell) {
             // 버튼이 눌러진 itemCell의 정보를 가져와서 tableView의 indexPath가 어디에 해당하는지 알아오는 작업
-            if iPhoneData[sectionTitle[indexPath.row]]!["max"]! > iPhoneData[sectionTitle[indexPath.row]]!["select"]! {
-                iPhoneData[sectionTitle[indexPath.row]]!["select"]! += 1
-                itemCell.countLabel.text = "\(iPhoneData[sectionTitle[indexPath.row]]!["select"]!)"
+            if iPhoneData[tempTitle[indexPath.row]]!["max"]! > iPhoneData[tempTitle[indexPath.row]]!["select"]! {
+                iPhoneData[tempTitle[indexPath.row]]!["select"]! += 1
+                itemCell.countLabel.text = "\(iPhoneData[tempTitle[indexPath.row]]!["select"]!)"
             } else {
                 let alert = UIAlertController(title: "경고", message: "재고가 없습니다.", preferredStyle: .alert)
                 let ckAlert = UIAlertAction(title: "확인", style: .default)

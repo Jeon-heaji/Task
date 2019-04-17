@@ -52,7 +52,6 @@ class ViewController: UIViewController {
         blueView.translatesAutoresizingMaskIntoConstraints = false
         blueView.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).isActive = true
         blueView.leadingAnchor.constraint(equalTo: redView.trailingAnchor, constant: 8).isActive = true
-//        blueView.trailingAnchor.constraint(equalTo: yellowView.leadingAnchor, constant: -8).isActive = true
         blueView.heightAnchor.constraint(equalToConstant: 150).isActive = true
         blueView.widthAnchor.constraint(equalTo: redView.widthAnchor, multiplier: 0.7, constant: -1).isActive = true
         
@@ -61,14 +60,12 @@ class ViewController: UIViewController {
         yellowView.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).isActive = true
         yellowView.heightAnchor.constraint(equalToConstant: 150).isActive = true
         yellowView.leadingAnchor.constraint(equalTo: blueView.trailingAnchor, constant: 8).isActive = true
-//        yellowView.trailingAnchor.constraint(equalTo: grayView.leadingAnchor, constant: -8).isActive = true
         yellowView.widthAnchor.constraint(equalTo: blueView.widthAnchor, multiplier: 0.7, constant: -2).isActive = true
         
         //grayView -> 4
         grayView.translatesAutoresizingMaskIntoConstraints = false
         grayView.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).isActive = true
         grayView.leadingAnchor.constraint(equalTo: yellowView.trailingAnchor, constant: 8).isActive = true
-//        grayView.trailingAnchor.constraint(equalTo: greenView.leadingAnchor, constant: -8).isActive = true
         grayView.heightAnchor.constraint(equalToConstant: 150).isActive = true
         grayView.widthAnchor.constraint(equalTo: yellowView.widthAnchor, multiplier: 0.7, constant: -3).isActive = true
         

@@ -24,7 +24,8 @@ reverseNum(num: 123)
 let arr1 = ["a", "b", "c", "a", "e", "d", "c", "e"]
 
 func aaa(chrArr: [String]) -> [String] {
-    var dic1: [String: Int] = ["a": 2, "b": 1, "c": 2, "e": 1, "d": 1]
+    var dic1: [String: Int] = [:]
+//        ["a": 2, "b": 1, "c": 2, "e": 1, "d": 1]
     
     for i in chrArr {
         if let x = dic1[i] {

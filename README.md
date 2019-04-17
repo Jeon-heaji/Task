@@ -245,25 +245,11 @@ by.클래스매니저님
 - Car 클래스에 modelYear 또는 numberOfSeat가 0 이하일 때 nil을 반환하는 Failable Initializer 추가
 - Bus 클래스에 지정 이니셜라이져를 추가하고, maxSpeed를 100으로 기본 할당해주는 편의 이니셜라이져 추가
 
-class Vehicle {
-let name: String
-let maxSpeed: Int
-}
-
-class Car: Vehicle {
-var modelYear: Int
-var numberOfSeats: Int
-}
-
-class Bus: Vehicle {
-let isDoubleDecker: Bool
-}
-
 2. 
 UIScrollView 에 UIPageControl을 사용하여 현재 페이지를 표시하는 화면 만들기
 (별도 이미지 참고)
 
-
+-> UIScrollView - AutoLayout, Frame, Stroyboard
 스크롤뷰 페이징 힌트
 - UIPageControl 객체 사용, Delegate 이용(scroll 관련),  pagingEnabled 속성 참고
 ------------------------
@@ -281,4 +267,4 @@ UIScrollView 에 UIPageControl을 사용하여 현재 페이지를 표시하는 
 - 스크롤이가능하도록아이템최소 15개이상생성
  (프로젝트에 5개이미지만포함되어있으므로중복사용하거나다른모델을추가원한다면직접이미지추가하여사용)
 - 각아이템은한정된재고수량을가지도록설정•버튼을통해해당아이템의주문수량을늘리려고할때, 재고수량을초과하면셀배경색을일시적으로빨갛게만들고추가로주문불가메시지출력 (print 또는 alert)
-
+-> ShoppingItems - AutoLayout, Frame 

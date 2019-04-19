@@ -8,6 +8,7 @@
 
 import UIKit
 // 회원가입View
+@IBDesignable
 class JoinViewController: UIViewController, UITextFieldDelegate {
    
     //view

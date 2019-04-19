@@ -29,7 +29,6 @@ class FirstViewController: UIViewController {
         }
         let barButton = UIBarButtonItem(title: "친구추가", style: .done, target: self, action: #selector(pushViewController(_:)))
             navigationItem.rightBarButtonItem = barButton
-  
     }
 
     func viewConfiguration() {
@@ -48,11 +47,8 @@ class FirstViewController: UIViewController {
     @objc private func pushViewController(_ sender: Any) {
         
         navigationController?.pushViewController(addToVc, animated: true)
-
     }
-
 }
-
 extension FirstViewController: AddToFriendsViewControllerDelegate {
     func sendData(name: String) {
         friendsLissArr.append(name)

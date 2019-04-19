@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+@IBDesignable
 class SecondViewController: UIViewController {
     
     // checkIDLabel, singOutButton

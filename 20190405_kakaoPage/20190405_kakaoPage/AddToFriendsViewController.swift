@@ -33,7 +33,6 @@ class AddToFriendsViewController: UIViewController {
         viewConfiguration()
         navigationItem.title = "친구추가"
         navigationItem.largeTitleDisplayMode = .never
-       
     
     }
   

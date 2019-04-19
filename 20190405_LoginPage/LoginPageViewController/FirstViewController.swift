@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class FirstViewController: UIViewController, UITextFieldDelegate {
     
     // view
@@ -54,6 +55,18 @@ class FirstViewController: UIViewController, UITextFieldDelegate {
         pwTextField.delegate = self
       
     }
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        viewConfiguration()
+    }
+    
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        viewConfiguration()
+    }
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         idTextField.text = temp

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = .white
         
-        // tabBarController, naviController,  fVC,aVC 추가
+        // tabBarCo ntroller, naviController,  fVC,aVC 추가
         let tabBarController = UITabBarController()
         let firstVc = FirstViewController()
         let addToVc = AddToFriendsViewController()

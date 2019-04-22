@@ -61,7 +61,7 @@ extension ViewController: UITableViewDataSource {
         
         print(indexPath)
         
-        cell.amountButton.tag = indexPath.row
+//        cell.amountButton.tag = indexPath.row
         cell.delegate = self
         cell.imgView.image = UIImage(named: tempTitle[indexPath.row])
         cell.iPhoneLabel.text = "\(tempTitle[indexPath.row])"
@@ -84,10 +84,8 @@ extension ViewController: ItemCellDelegate {
                 
                 UIView.animate(withDuration: 1, animations: {
                     itemCell.backgroundColor = .red
-                    itemCell.backgroundColor = .red
                     
                 }) { (true) in
-                    itemCell.backgroundColor = .white
                     itemCell.backgroundColor = .white
                 }
                 

@@ -90,3 +90,13 @@ TableView
 
 2. 테이블뷰와커스텀셀을이용해서사고자하는아이템을추가하는기능구현
 - ShoppingItems - AutoLayout, Frame 
+
+-----------------------------
+* 20190419_금:[과제]
+Calculator - TableView
+계산기 구현
+
+-----------------------------
+* 20190422_월[과제]
+Higher-order Function
+Practice 3

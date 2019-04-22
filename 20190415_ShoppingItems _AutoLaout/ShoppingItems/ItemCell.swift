@@ -64,7 +64,7 @@ final class ItemCell: UITableViewCell {
         imgView.translatesAutoresizingMaskIntoConstraints = false
         imgView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5).isActive = true
         imgView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-        imgView.widthAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.heightAnchor,constant: 30).isActive = true
+        imgView.widthAnchor.constraint(equalTo: contentView.heightAnchor,constant: 30).isActive = true
         imgView.heightAnchor.constraint(equalTo: contentView.heightAnchor, constant: -10).isActive = true
         
         // iPhoneLabel

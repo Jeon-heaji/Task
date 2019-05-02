@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         uiScrollView.delegate = self
         // 1페이지씩 이동하게.. 중간에 멈추지 않게함
         uiScrollView.isPagingEnabled = true
-     
     }
    
 }
@@ -34,4 +33,3 @@ extension ViewController: UIScrollViewDelegate {
         
     }
 }
-

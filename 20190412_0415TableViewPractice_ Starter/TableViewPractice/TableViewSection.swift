@@ -26,9 +26,14 @@ final class TableViewSection: UIViewController {
     let data = Array(1...100)
     var numberCategories: [Int:[Int]] = [:] // 딕셔너리 [key: [value]]  키가있고, value는 배열
     var sectionTitles:[Int] = []
+    var name = "apple"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        print(name.index)
+        
         
         let tableView = UITableView(frame: view.frame)
         

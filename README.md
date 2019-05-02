@@ -100,3 +100,9 @@ Calculator - TableView
 * 20190422_월[과제]
 Higher-order Function
 Practice 3
+
+-----------------------------
+* 20190501_수[실습]
+TableView - section (Domino)
+ScrollView
+------------------------

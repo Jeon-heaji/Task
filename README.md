@@ -97,12 +97,18 @@ Calculator - TableView
 계산기 구현
 
 -----------------------------
-* 20190422_월[과제]
+* 20190422_월:[과제]
 Higher-order Function
 Practice 3
 
 -----------------------------
-* 20190501_수[실습]
+
+* 20190430_화:[과제]
+Notification
+UISlider - NotificationCenter
+TextField - NotificationCenter 
+-----------------------------
+* 20190501_수:[실습]
 TableView - section (Domino)
 ScrollView
 ------------------------

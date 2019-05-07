@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1008DB3227DA78E00B09C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1008DB2227DA78E00B09C11 /* AppDelegate.swift */; };
-		C1008DB5227DA78E00B09C11 /* SilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1008DB4227DA78E00B09C11 /* SilderViewController.swift */; };
-		C1008DB8227DA78E00B09C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1008DB6227DA78E00B09C11 /* Main.storyboard */; };
-		C1008DBA227DA78F00B09C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1008DB9227DA78F00B09C11 /* Assets.xcassets */; };
-		C1008DBD227DA78F00B09C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1008DBB227DA78F00B09C11 /* LaunchScreen.storyboard */; };
-		C1008DC5227DA81900B09C11 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1008DC4227DA81900B09C11 /* ResultViewController.swift */; };
-		C1008DC7227DA8A800B09C11 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1008DC6227DA8A800B09C11 /* SliderView.swift */; };
+		C11619DF2281681A00EEF37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11619DE2281681A00EEF37D /* AppDelegate.swift */; };
+		C11619E12281681A00EEF37D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11619E02281681A00EEF37D /* ViewController.swift */; };
+		C11619E42281681A00EEF37D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11619E22281681A00EEF37D /* Main.storyboard */; };
+		C11619E62281681A00EEF37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11619E52281681A00EEF37D /* Assets.xcassets */; };
+		C11619E92281681A00EEF37D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11619E72281681A00EEF37D /* LaunchScreen.storyboard */; };
+		C11619F12281689900EEF37D /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11619F02281689900EEF37D /* LabelView.swift */; };
+		C11619F32281AFB700EEF37D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11619F22281AFB700EEF37D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C1008DAF227DA78E00B09C11 /* 20190430NotificationUISlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20190430NotificationUISlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1008DB2227DA78E00B09C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1008DB4227DA78E00B09C11 /* SilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilderViewController.swift; sourceTree = "<group>"; };
-		C1008DB7227DA78E00B09C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1008DB9227DA78F00B09C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1008DBC227DA78F00B09C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1008DBE227DA78F00B09C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1008DC4227DA81900B09C11 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		C1008DC6227DA8A800B09C11 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		C11619DB2281681A00EEF37D /* 20190507UITapGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20190507UITapGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11619DE2281681A00EEF37D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C11619E02281681A00EEF37D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C11619E32281681A00EEF37D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C11619E52281681A00EEF37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11619E82281681A00EEF37D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C11619EA2281681A00EEF37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11619F02281689900EEF37D /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		C11619F22281AFB700EEF37D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1008DAC227DA78E00B09C11 /* Frameworks */ = {
+		C11619D82281681A00EEF37D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1008DA6227DA78E00B09C11 = {
+		C11619D22281681A00EEF37D = {
 			isa = PBXGroup;
 			children = (
-				C1008DB1227DA78E00B09C11 /* 20190430NotificationUISlider */,
-				C1008DB0227DA78E00B09C11 /* Products */,
+				C11619DD2281681A00EEF37D /* 20190507UITapGestureRecognizer */,
+				C11619DC2281681A00EEF37D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C1008DB0227DA78E00B09C11 /* Products */ = {
+		C11619DC2281681A00EEF37D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1008DAF227DA78E00B09C11 /* 20190430NotificationUISlider.app */,
+				C11619DB2281681A00EEF37D /* 20190507UITapGestureRecognizer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1008DB1227DA78E00B09C11 /* 20190430NotificationUISlider */ = {
+		C11619DD2281681A00EEF37D /* 20190507UITapGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				C1008DB2227DA78E00B09C11 /* AppDelegate.swift */,
-				C1008DB4227DA78E00B09C11 /* SilderViewController.swift */,
-				C1008DC6227DA8A800B09C11 /* SliderView.swift */,
-				C1008DC4227DA81900B09C11 /* ResultViewController.swift */,
-				C1008DB6227DA78E00B09C11 /* Main.storyboard */,
-				C1008DB9227DA78F00B09C11 /* Assets.xcassets */,
-				C1008DBB227DA78F00B09C11 /* LaunchScreen.storyboard */,
-				C1008DBE227DA78F00B09C11 /* Info.plist */,
+				C11619DE2281681A00EEF37D /* AppDelegate.swift */,
+				C11619E02281681A00EEF37D /* ViewController.swift */,
+				C11619F22281AFB700EEF37D /* SecondViewController.swift */,
+				C11619F02281689900EEF37D /* LabelView.swift */,
+				C11619E22281681A00EEF37D /* Main.storyboard */,
+				C11619E52281681A00EEF37D /* Assets.xcassets */,
+				C11619E72281681A00EEF37D /* LaunchScreen.storyboard */,
+				C11619EA2281681A00EEF37D /* Info.plist */,
 			);
-			path = 20190430NotificationUISlider;
+			path = 20190507UITapGestureRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1008DAE227DA78E00B09C11 /* 20190430NotificationUISlider */ = {
+		C11619DA2281681A00EEF37D /* 20190507UITapGestureRecognizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1008DC1227DA78F00B09C11 /* Build configuration list for PBXNativeTarget "20190430NotificationUISlider" */;
+			buildConfigurationList = C11619ED2281681A00EEF37D /* Build configuration list for PBXNativeTarget "20190507UITapGestureRecognizer" */;
 			buildPhases = (
-				C1008DAB227DA78E00B09C11 /* Sources */,
-				C1008DAC227DA78E00B09C11 /* Frameworks */,
-				C1008DAD227DA78E00B09C11 /* Resources */,
+				C11619D72281681A00EEF37D /* Sources */,
+				C11619D82281681A00EEF37D /* Frameworks */,
+				C11619D92281681A00EEF37D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 20190430NotificationUISlider;
-			productName = 20190430NotificationUISlider;
-			productReference = C1008DAF227DA78E00B09C11 /* 20190430NotificationUISlider.app */;
+			name = 20190507UITapGestureRecognizer;
+			productName = 20190507UITapGestureRecognizer;
+			productReference = C11619DB2281681A00EEF37D /* 20190507UITapGestureRecognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1008DA7227DA78E00B09C11 /* Project object */ = {
+		C11619D32281681A00EEF37D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Jeon-heaji";
 				TargetAttributes = {
-					C1008DAE227DA78E00B09C11 = {
+					C11619DA2281681A00EEF37D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = C1008DAA227DA78E00B09C11 /* Build configuration list for PBXProject "20190430NotificationUISlider" */;
+			buildConfigurationList = C11619D62281681A00EEF37D /* Build configuration list for PBXProject "20190507UITapGestureRecognizer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = C1008DA6227DA78E00B09C11;
-			productRefGroup = C1008DB0227DA78E00B09C11 /* Products */;
+			mainGroup = C11619D22281681A00EEF37D;
+			productRefGroup = C11619DC2281681A00EEF37D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1008DAE227DA78E00B09C11 /* 20190430NotificationUISlider */,
+				C11619DA2281681A00EEF37D /* 20190507UITapGestureRecognizer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1008DAD227DA78E00B09C11 /* Resources */ = {
+		C11619D92281681A00EEF37D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1008DBD227DA78F00B09C11 /* LaunchScreen.storyboard in Resources */,
-				C1008DBA227DA78F00B09C11 /* Assets.xcassets in Resources */,
-				C1008DB8227DA78E00B09C11 /* Main.storyboard in Resources */,
+				C11619E92281681A00EEF37D /* LaunchScreen.storyboard in Resources */,
+				C11619E62281681A00EEF37D /* Assets.xcassets in Resources */,
+				C11619E42281681A00EEF37D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1008DAB227DA78E00B09C11 /* Sources */ = {
+		C11619D72281681A00EEF37D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1008DB5227DA78E00B09C11 /* SilderViewController.swift in Sources */,
-				C1008DC7227DA8A800B09C11 /* SliderView.swift in Sources */,
-				C1008DB3227DA78E00B09C11 /* AppDelegate.swift in Sources */,
-				C1008DC5227DA81900B09C11 /* ResultViewController.swift in Sources */,
+				C11619F32281AFB700EEF37D /* SecondViewController.swift in Sources */,
+				C11619E12281681A00EEF37D /* ViewController.swift in Sources */,
+				C11619DF2281681A00EEF37D /* AppDelegate.swift in Sources */,
+				C11619F12281689900EEF37D /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C1008DB6227DA78E00B09C11 /* Main.storyboard */ = {
+		C11619E22281681A00EEF37D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1008DB7227DA78E00B09C11 /* Base */,
+				C11619E32281681A00EEF37D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C1008DBB227DA78F00B09C11 /* LaunchScreen.storyboard */ = {
+		C11619E72281681A00EEF37D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1008DBC227DA78F00B09C11 /* Base */,
+				C11619E82281681A00EEF37D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C1008DBF227DA78F00B09C11 /* Debug */ = {
+		C11619EB2281681A00EEF37D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		C1008DC0227DA78F00B09C11 /* Release */ = {
+		C11619EC2281681A00EEF37D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,36 +286,36 @@
 			};
 			name = Release;
 		};
-		C1008DC2227DA78F00B09C11 /* Debug */ = {
+		C11619EE2281681A00EEF37D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KNHX5B578D;
-				INFOPLIST_FILE = 20190430NotificationUISlider/Info.plist;
+				INFOPLIST_FILE = 20190507UITapGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.your.-0190430NotificationUISlider";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.your.-0190507UITapGestureRecognizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C1008DC3227DA78F00B09C11 /* Release */ = {
+		C11619EF2281681A00EEF37D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KNHX5B578D;
-				INFOPLIST_FILE = 20190430NotificationUISlider/Info.plist;
+				INFOPLIST_FILE = 20190507UITapGestureRecognizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.your.-0190430NotificationUISlider";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.your.-0190507UITapGestureRecognizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1008DAA227DA78E00B09C11 /* Build configuration list for PBXProject "20190430NotificationUISlider" */ = {
+		C11619D62281681A00EEF37D /* Build configuration list for PBXProject "20190507UITapGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1008DBF227DA78F00B09C11 /* Debug */,
-				C1008DC0227DA78F00B09C11 /* Release */,
+				C11619EB2281681A00EEF37D /* Debug */,
+				C11619EC2281681A00EEF37D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1008DC1227DA78F00B09C11 /* Build configuration list for PBXNativeTarget "20190430NotificationUISlider" */ = {
+		C11619ED2281681A00EEF37D /* Build configuration list for PBXNativeTarget "20190507UITapGestureRecognizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1008DC2227DA78F00B09C11 /* Debug */,
-				C1008DC3227DA78F00B09C11 /* Release */,
+				C11619EE2281681A00EEF37D /* Debug */,
+				C11619EF2281681A00EEF37D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1008DA7227DA78E00B09C11 /* Project object */;
+	rootObject = C11619D32281681A00EEF37D /* Project object */;
 }

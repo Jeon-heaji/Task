@@ -105,10 +105,21 @@ Practice 3
 
 * 20190430_화:[과제]
 Notification
-UISlider - NotificationCenter
-TextField - NotificationCenter 
+1. UISlider - NotificationCenter
+2. TextField - NotificationCenter 
 -----------------------------
 * 20190501_수:[실습]
 TableView - section (Domino)
 ScrollView
 ------------------------
+* 20190506_일:[연습]
+Notification 
+TextField, Label - NotificationCenter
+----------------------------
+
+* 20190507_화:[과제]
+1. GestureRecognizerExample
+2. touchesBegan
+2-1. UITapGestureRecognizer
+
+--------------------

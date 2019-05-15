@@ -140,5 +140,5 @@ UIViewAnimation
 
 * 20190515_수:[실습]
 CandiesSearchController
-
+20190515SearchViewControllerExample 
 --------------------------

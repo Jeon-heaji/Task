@@ -144,6 +144,7 @@ CandiesSearchController
 --------------------------
 
 * 20190516_목:[수업]
-SlackNewWorkspace
+SlackNewWorkspace 
 
 --------------------------
+* 201905017

@@ -157,6 +157,6 @@ kakaoLogin
 SweetFood Recipe 수정
 ------------------------
 * 20190524_금:[해커톤:완성]
-  SwiFood
+  SwiFood 
   SweetFood Recipe
-------------------------
+-------------------------

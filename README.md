@@ -160,7 +160,10 @@ SweetFood Recipe 수정
   SwiFood 
   SweetFood Recipe
 -------------------------
-*20190528_화:[연습]
+* 20190528_화:[연습]
 CollectionView Practice
 
 -------------------------
+* 20190529_수:[실습]
+StackView Practice
+--------------------------

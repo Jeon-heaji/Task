@@ -167,3 +167,8 @@ CollectionView Practice
 * 20190529_수:[실습]
 StackView Practice
 --------------------------
+
+* 20190530_목:[과제]
+CollectionView Practice
+
+-------------------------

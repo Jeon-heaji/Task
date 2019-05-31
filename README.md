@@ -172,8 +172,9 @@ StackView Practice
 CollectionView Practice
 
 -------------------------
-* 20190531_금:[연습]
+* 20190531_금:[연습,수업]
 Firebase Login Practice
-
+CocoapodExample
+CarthageExample
 ------------------------
 

@@ -145,7 +145,6 @@ CandiesSearchController
 
 * 20190516_목:[수업]
 SlackNewWorkspace 
-
 --------------------------
 * 201905018_토:[연습]
 algorithm_ 별찍기
@@ -162,7 +161,6 @@ SweetFood Recipe 수정
 -------------------------
 * 20190528_화:[연습]
 CollectionView Practice
-
 -------------------------
 * 20190529_수:[실습]
 StackView Practice
@@ -170,7 +168,6 @@ StackView Practice
 
 * 20190530_목:[과제]
 CollectionView Practice
-
 -------------------------
 * 20190531_금:[연습,수업]
 Firebase Login Practice
@@ -180,5 +177,7 @@ CarthageExample
 
 * 20190601_토:[연습]
 Firebase SignUP, Login, LoginSuccess
-
 -------------------------
+* 20190603_월:[수업]
+JSONSerialization
+------------------------

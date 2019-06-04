@@ -182,3 +182,6 @@ Firebase SignUP, Login, LoginSuccess
 * 20190603_월:[수업]
 JSONSerialization
 ------------------------
+* 20190604_화:[수업]
+CodableExample
+-----------------------

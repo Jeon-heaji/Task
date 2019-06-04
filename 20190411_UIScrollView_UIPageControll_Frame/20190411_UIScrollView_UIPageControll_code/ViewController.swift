@@ -12,7 +12,7 @@ import UIKit
 
 class ViewController: UIViewController{
     
-    let aScrollView = UIScrollView()
+    let scrollView = UIScrollView()
     let redView = UIView()
     let blueView = UIView()
     let greenView = UIView()
@@ -26,9 +26,9 @@ class ViewController: UIViewController{
         super.viewDidLoad()
         
         viewConfiguration()
-        aScrollView.delegate = self
+        scrollView.delegate = self
         
-        aScrollView.isPagingEnabled = true
+        scrollView.isPagingEnabled = true
         
     }
     
@@ -37,26 +37,26 @@ class ViewController: UIViewController{
         let width1 = view.frame.width
         let height1 = view.frame.height
         
-        aScrollView.frame = view.bounds
-        aScrollView.contentSize = CGSize(width: view.frame.width * 4, height: view.frame.height)
+        scrollView.frame = view.bounds
+        scrollView.contentSize = CGSize(width: view.frame.width * 4, height: view.frame.height)
         
-        view.addSubview(aScrollView)
+        view.addSubview(scrollView)
         
         blueView.frame = CGRect(x: 0, y: 0, width: width1 , height: height1)
         blueView.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
-        aScrollView.addSubview(blueView)
+        scrollView.addSubview(blueView)
         
         greenView.frame = CGRect(x: blueView.frame.maxX, y: 0, width: width1, height: height1)
         greenView.backgroundColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
-        aScrollView.addSubview(greenView)
+        scrollView.addSubview(greenView)
         
         redView.frame = CGRect(x: greenView.frame.maxX, y: 0, width: width1, height: height1)
         redView.backgroundColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
-        aScrollView.addSubview(redView)
+        scrollView.addSubview(redView)
         
         yellowView.frame = CGRect(x: redView.frame.maxX, y: 0, width: width1, height: height1)
         yellowView.backgroundColor = #colorLiteral(red: 1, green: 0.9709396149, blue: 0.5619507401, alpha: 1)
-        aScrollView.addSubview(yellowView)
+        scrollView.addSubview(yellowView)
         
         pageController.frame = CGRect(x: 140, y: 750, width: 140, height: 50)
         pageController.currentPageIndicatorTintColor = .white

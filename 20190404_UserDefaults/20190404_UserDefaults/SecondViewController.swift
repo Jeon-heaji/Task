@@ -16,9 +16,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        let temp = UserDefaults.standard
+        let useD = UserDefaults.standard
         
-        countLabel.text = temp.string(forKey: "tf")
+        countLabel.text = useD.string(forKey: "tf")
      
     }
     @IBAction func backButton(_ sender: UIButton) {

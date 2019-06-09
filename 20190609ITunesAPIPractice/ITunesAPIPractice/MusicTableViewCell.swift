@@ -8,7 +8,7 @@
 import UIKit
 
 class MusicTableViewCell: UITableViewCell {
-    static let identifire = "ITunesCell"
+    static let identifire = "MusicTableViewCell"
     
     let titleImage: UIImageView = {
         let imageView = UIImageView()
@@ -39,7 +39,6 @@ class MusicTableViewCell: UITableViewCell {
         contentView.addSubview(titleImage)
         contentView.addSubview(subTitleLabel)
     }
-    
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

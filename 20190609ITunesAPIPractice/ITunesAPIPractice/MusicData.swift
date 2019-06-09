@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 struct Music: Codable {
     let results: [MusicData]
 }

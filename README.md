@@ -177,7 +177,6 @@ CarthageExample
 
 * 20190601_토:[연습]
 Firebase SignUP, Login, LoginSuccess
-<<<<<<< HEAD
 -------------------------
 * 20190603_월:[수업]
 JSONSerialization

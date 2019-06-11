@@ -13,7 +13,7 @@ struct Music: Codable {
 }
 
 struct MusicData: Codable {
-    let artistName: String
-    let trackName: String
+    let artistName: String?
+    let trackName: String?
     let artworkUrl100: String
 }

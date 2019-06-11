@@ -16,6 +16,7 @@ class MusicTableViewCell: UITableViewCell {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
+    
     let titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -59,7 +60,6 @@ class MusicTableViewCell: UITableViewCell {
             subTitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 15),
             subTitleLabel.leadingAnchor.constraint(equalTo: titleImage.trailingAnchor, constant: 15),
             subTitleLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.6),
-            
             
             ])
     }

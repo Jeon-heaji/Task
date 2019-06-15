@@ -45,7 +45,7 @@ final class TouchViewController: UIViewController {
         guard isHoldingImage, let touch = touches.first else { return }     // 이미지안에있으면 true
         let touchPoint = touch.location(in: touch.view)
 //        imageView.frame.origin = .zero
-//        imageView.frame.origin = touchPointn
+//        imageView.frame.origin = touchPoint
 //        imageView.center = touchPoint
         print("imageView.center.x: \(imageView.center.x) (touchPoint.x - savePoint.x): \(touchPoint.x - savePoint.x)")
         

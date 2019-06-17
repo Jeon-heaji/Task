@@ -183,6 +183,5 @@ class PhotoVC: UICollectionViewController, UICollectionViewDelegateFlowLayout {
             }
         }
         
-        
     }
 }

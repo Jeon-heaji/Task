@@ -206,3 +206,6 @@ TestReturn
 * 20190617_월:[수업]
 SandboxDirectoryExample
 -------------------------
+* 20190618_화:[수업]
+WeatherForecast(Completion)
+-------------------------

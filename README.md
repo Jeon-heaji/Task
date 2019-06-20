@@ -212,3 +212,6 @@ WeatherForecast(Completion)
 * 20190619_수:[수업]
 CustomTabBarExample
 -------------------------
+* 20190621_금:[연습]
+TableView Data Transmission
+-------------------------

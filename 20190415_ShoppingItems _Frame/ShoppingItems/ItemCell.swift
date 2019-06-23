@@ -35,8 +35,6 @@ final class ItemCell: UITableViewCell {
         
         amountButton.setImage(buttonImage, for: .normal)
         amountButton.addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)
-        
-        
         //  imageView
         imgView.contentMode = .scaleAspectFit
         

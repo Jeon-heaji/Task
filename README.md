@@ -215,6 +215,9 @@ CustomTabBarExample
 * 20190621_금:[연습]
 TableView Data Transmission
 ---------------------------
-* 20190622_일:[연습]
+* 20190623_일:[연습]
 TestRequestData
+--------------------------
+* 20190624_월:[해커톤-미완수정]
+SwiFood - DetailCollectionView Update
 --------------------------

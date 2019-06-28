@@ -207,7 +207,12 @@ WeatherForecast(완성)
 * 20190617_월:[수업]
 SandboxDirectoryExample
 -------------------------
-* 20190618_화:[수업]
+* 20190628_금:[해커톤]
+TheAnswerOfLoveApp
+--------------------------
+
+
+
 WeatherForecast(Completion)
 -------------------------
 * 20190619_수:[수업]

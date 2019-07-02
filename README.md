@@ -227,3 +227,6 @@ TestRequestData
 * 20190624_월:[해커톤-미완수정]
 SwiFood - DetailCollectionView Update
 ---------------------------
+* 20190702_화:[연습]
+KaKaoAPITranslatedTest
+-----------------------------

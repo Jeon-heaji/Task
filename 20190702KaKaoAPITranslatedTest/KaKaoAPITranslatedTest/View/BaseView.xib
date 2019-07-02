@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BaseView" customModule="KaKaoAPITranslatedTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="66" translatesAutoresizingMaskIntoConstraints="NO" id="3M8-sO-nNo">
+                    <rect key="frame" x="25" y="108" width="325" height="36"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gv-wf-fBc">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="36"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                            <state key="normal" title="한국어">
+                                <color key="titleColor" red="0.00099710307819999991" green="0.03644428567" blue="0.21789736679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="changBtnDidTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="H9o-Vv-ORL"/>
+                                <action selector="kobuttonDidtap:" destination="iN0-l3-epB" eventType="touchUpInside" id="flR-0r-aBn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKL-MX-zuL">
+                            <rect key="frame" x="136" y="0.0" width="70" height="36"/>
+                            <color key="tintColor" red="0.00099710307819999991" green="0.03644428567" blue="0.21789736679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" image="exchange"/>
+                            <connections>
+                                <action selector="changBtnDidTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="Rf5-dd-2b4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5o-sj-Rb8">
+                            <rect key="frame" x="272" y="0.0" width="53" height="36"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <state key="normal" title="영어    ">
+                                <color key="titleColor" red="0.00099710307819999991" green="0.03644428567" blue="0.21789736679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="changBtnDidTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="5Fo-qr-i4w"/>
+                                <action selector="enbuttonDidtap:" destination="iN0-l3-epB" eventType="touchUpInside" id="MfS-3P-ahG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="KKL-MX-zuL" firstAttribute="width" secondItem="6gv-wf-fBc" secondAttribute="width" id="L8s-zQ-dHm"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXs-am-5RY">
+                    <rect key="frame" x="113" y="783" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+                <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="yOE-Jx-hfS">
+                    <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                    <color key="backgroundColor" red="0.0" green="0.25045745101516548" blue="0.44282594094771577" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <textAttributes key="largeTitleTextAttributes">
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="Translator" id="AbM-Vj-tvx"/>
+                    </items>
+                </navigationBar>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iqp-PY-hx5">
+                    <rect key="frame" x="20" y="169" width="335" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="XIu-wP-U10"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WZ0-94-fAf">
+                    <rect key="frame" x="20" y="399" width="335" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="nkn-kE-8yE"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mko-Uy-gMa">
+                    <rect key="frame" x="0.0" y="689" width="375" height="2"/>
+                    <color key="backgroundColor" red="0.00099710307819999991" green="0.03644428567" blue="0.21789736679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="azW-L4-kgQ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sJ-6I-awC">
+                    <rect key="frame" x="164" y="721" width="47" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="tH5-RL-Kir"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="지우기">
+                        <color key="titleColor" red="1" green="0.28167157799999998" blue="0.10603014519999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="removeBtnDidTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="CP8-t7-pAD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58K-m5-iQI">
+                    <rect key="frame" x="161.66666666666666" y="629" width="52" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="52" id="ov8-P9-OGH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="실행하기">
+                        <color key="titleColor" red="0.00099710307819999991" green="0.03644428567" blue="0.21789736679999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="translateBtnDidTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="cVd-Fr-MQI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="iqp-PY-hx5" firstAttribute="top" secondItem="3M8-sO-nNo" secondAttribute="bottom" constant="25" id="0E3-Gv-iHA"/>
+                <constraint firstItem="9sJ-6I-awC" firstAttribute="top" secondItem="mko-Uy-gMa" secondAttribute="bottom" constant="30" id="3mE-RV-nNL"/>
+                <constraint firstItem="yOE-Jx-hfS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="54h-tm-vbw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WZ0-94-fAf" secondAttribute="trailing" constant="20" id="AkE-1K-lxB"/>
+                <constraint firstItem="58K-m5-iQI" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="JJ4-tS-arH"/>
+                <constraint firstItem="WZ0-94-fAf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="KUg-8O-mLy"/>
+                <constraint firstItem="58K-m5-iQI" firstAttribute="top" secondItem="WZ0-94-fAf" secondAttribute="bottom" constant="30" id="Pvg-RE-KIT"/>
+                <constraint firstItem="3M8-sO-nNo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="RAe-Xs-eHJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yOE-Jx-hfS" secondAttribute="trailing" id="Xjt-of-eEi"/>
+                <constraint firstItem="iqp-PY-hx5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="ZZR-zu-lLu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3M8-sO-nNo" secondAttribute="trailing" constant="25" id="d0t-A8-yKL"/>
+                <constraint firstItem="mko-Uy-gMa" firstAttribute="top" secondItem="58K-m5-iQI" secondAttribute="bottom" constant="30" id="dP6-La-Zj4"/>
+                <constraint firstItem="3M8-sO-nNo" firstAttribute="top" secondItem="yOE-Jx-hfS" secondAttribute="bottom" constant="20" id="i9D-OM-0Jx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mko-Uy-gMa" secondAttribute="trailing" id="jYP-h6-Qyz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="leading" secondItem="yOE-Jx-hfS" secondAttribute="leading" id="loh-Fj-KnJ"/>
+                <constraint firstItem="9sJ-6I-awC" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="mZL-TG-wBs"/>
+                <constraint firstItem="WZ0-94-fAf" firstAttribute="top" secondItem="iqp-PY-hx5" secondAttribute="bottom" constant="30" id="qXq-k2-bUa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iqp-PY-hx5" secondAttribute="trailing" constant="20" id="t1m-TI-0al"/>
+                <constraint firstItem="mko-Uy-gMa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="tRM-s8-nWX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="enButton" destination="H5o-sj-Rb8" id="JFc-iR-Iu3"/>
+                <outlet property="enTextView" destination="WZ0-94-fAf" id="211-em-QzO"/>
+                <outlet property="koButton" destination="6gv-wf-fBc" id="VtN-Gu-x0T"/>
+                <outlet property="koTextView" destination="iqp-PY-hx5" id="4sP-UB-bfv"/>
+            </connections>
+            <point key="canvasLocation" x="47.200000000000003" y="35.467980295566505"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="exchange" width="33.5" height="33.5"/>
+    </resources>
+</document>

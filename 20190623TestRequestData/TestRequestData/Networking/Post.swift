@@ -48,4 +48,6 @@ class NetWork {
         task.resume()
         
     }
+    
+
 }

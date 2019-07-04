@@ -8,6 +8,10 @@
 
 import Foundation
 
+enum Lang {
+    case kr, en, jp
+}
+
 // MARK: - Translator
 struct Translator: Codable {
     let translatedText: [[String]]

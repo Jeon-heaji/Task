@@ -230,3 +230,7 @@ SwiFood - DetailCollectionView Update
 * 20190702_화:[연습]
 KaKaoAPITranslatedTest
 -----------------------------
+* 20190704_목:[완성]
+KaKaoAPITranslatedTest
+kr -> en, en -> kr
+-----------------------------

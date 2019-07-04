@@ -12,6 +12,8 @@ import UIKit
 class BaseView: UIView {
     
     var isChange = false
+    var src: Lang = .kr
+    var target: Lang = .en
     
     
     @IBOutlet weak var koButton: UIButton!
@@ -28,27 +30,26 @@ class BaseView: UIView {
         
         enTextView.layer.borderWidth = 0.3
         enTextView.layer.borderColor = UIColor.black.cgColor
+        
    
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.endEditing(true)
     }
     
-    @IBAction func kobuttonDidtap(_ sender: UIButton) {
-        koButton.tag = 1
-    }
-    @IBAction func enbuttonDidtap(_ sender: UIButton) {
-        enButton.tag = 2
-    }
     @IBAction func changBtnDidTap(_ sender: UIButton) {
         
         if isChange == false {
             koButton.titleLabel?.text = "영어"
             enButton.titleLabel?.text = "한국어"
+            src = .en
+            target = .kr
             isChange = true
         } else {
             enButton.titleLabel?.text = "한국어"
             koButton.titleLabel?.text = "영어"
+            src = .kr
+            target = .en
             isChange = false
         }
     }
@@ -59,8 +60,9 @@ class BaseView: UIView {
     }
     
     @IBAction func translateBtnDidTap(_ sender: UIButton) {
-        guard let text = koTextView.text else { return print("error") }
-        Network.shared.kakaoAPI(Text: text) { (str) in
+        guard let koText = koTextView.text else { return print("error") }
+        
+        Network.shared.kakaoAPI(Text: koText, src: src, target: target) { str in
             DispatchQueue.main.async {
                 self.enTextView.text = str
             }

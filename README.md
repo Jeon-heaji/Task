@@ -231,6 +231,9 @@ SwiFood - DetailCollectionView Update
 KaKaoAPITranslatedTest
 -----------------------------
 * 20190704_목:[완성]
-KaKaoAPITranslatedTest
-kr -> en, en -> kr
+1.KaKaoAPITranslatedTest
+2.TestVideoPlayer
 -----------------------------
+* 20190706_토:[연습]
+KingfisherExample
+----------------------------

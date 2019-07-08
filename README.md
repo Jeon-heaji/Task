@@ -210,11 +210,6 @@ SandboxDirectoryExample
 * 20190628_금:[해커톤]
 TheAnswerOfLoveApp
 --------------------------
-
-
-
-WeatherForecast(Completion)
--------------------------
 * 20190619_수:[수업]
 CustomTabBarExample
 -------------------------

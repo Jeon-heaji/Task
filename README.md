@@ -233,5 +233,5 @@ KaKaoAPITranslatedTest
 KingfisherExample
 -----------------------------
 * 20190708_월:[연습]
-SnapKitPractice
+SnapKitPractice(미완)
 -----------------------------

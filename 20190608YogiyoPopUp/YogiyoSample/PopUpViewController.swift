@@ -26,8 +26,7 @@ class PopUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("PopupVC")
-        
-        
+      
         view.backgroundColor = UIColor.gray.withAlphaComponent(0.3)
         view.addSubview(customView)
         

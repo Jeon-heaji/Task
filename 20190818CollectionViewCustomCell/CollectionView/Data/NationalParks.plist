@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Denali National Park</string>
+		<key>state</key>
+		<string>Alaska</string>
+		<key>date</key>
+		<string>February 26, 1917</string>
+		<key>photo</key>
+		<string>Denali</string>
+		<key>index</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Katmai National Park</string>
+		<key>state</key>
+		<string>Alaska</string>
+		<key>date</key>
+		<string>December 2, 1980</string>
+		<key>photo</key>
+		<string>Katmai</string>
+		<key>index</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kenai Fjords National Park</string>
+		<key>state</key>
+		<string>Alaska</string>
+		<key>date</key>
+		<string>December 2, 1980</string>
+		<key>photo</key>
+		<string>Kenai Fjords</string>
+		<key>index</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Joshua Tree National Park</string>
+		<key>state</key>
+		<string>California</string>
+		<key>date</key>
+		<string>October 31, 1994</string>
+		<key>photo</key>
+		<string>Joshua Tree</string>
+		<key>index</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sequoia National Park</string>
+		<key>state</key>
+		<string>California</string>
+		<key>date</key>
+		<string>September 25, 1890</string>
+		<key>photo</key>
+		<string>Sequoia</string>
+		<key>index</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yosemite National Park</string>
+		<key>state</key>
+		<string>California</string>
+		<key>date</key>
+		<string>October 1, 1890</string>
+		<key>photo</key>
+		<string>Yosemite</string>
+		<key>index</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Great Sand Dunes National Park</string>
+		<key>state</key>
+		<string>Colorado</string>
+		<key>date</key>
+		<string>September 13, 2004</string>
+		<key>photo</key>
+		<string>Great Sand Dunes</string>
+		<key>index</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mesa Verde National Park</string>
+		<key>state</key>
+		<string>Colorado</string>
+		<key>date</key>
+		<string>June 29, 1906</string>
+		<key>photo</key>
+		<string>Mesa Verde</string>
+		<key>index</key>
+		<integer>7</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rocky Mountain National Park</string>
+		<key>state</key>
+		<string>Colorado</string>
+		<key>date</key>
+		<string>January 26, 1915</string>
+		<key>photo</key>
+		<string>Rocky Mountains</string>
+		<key>index</key>
+		<integer>8</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arches National Park</string>
+		<key>state</key>
+		<string>Utah</string>
+		<key>date</key>
+		<string>November 12, 1971</string>
+		<key>photo</key>
+		<string>Arches</string>
+		<key>index</key>
+		<integer>9</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bryce Canyon National Park</string>
+		<key>state</key>
+		<string>Utah</string>
+		<key>date</key>
+		<string>February 25, 1928</string>
+		<key>photo</key>
+		<string>Bryce Canyon</string>
+		<key>index</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Zion National Park</string>
+		<key>state</key>
+		<string>Utah</string>
+		<key>date</key>
+		<string>November 19, 1919</string>
+		<key>photo</key>
+		<string>Zion</string>
+		<key>index</key>
+		<integer>11</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mount Rainier National Park</string>
+		<key>state</key>
+		<string>Washington</string>
+		<key>date</key>
+		<string>March 2, 1899</string>
+		<key>photo</key>
+		<string>Mount Rainier</string>
+		<key>index</key>
+		<integer>12</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>North Cascades National Park</string>
+		<key>state</key>
+		<string>Washington</string>
+		<key>date</key>
+		<string>October 2, 1968</string>
+		<key>photo</key>
+		<string>North Cascades</string>
+		<key>index</key>
+		<integer>13</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Olympic National Park</string>
+		<key>state</key>
+		<string>Washington</string>
+		<key>date</key>
+		<string>June 29, 1938</string>
+		<key>photo</key>
+		<string>Olympic</string>
+		<key>index</key>
+		<integer>14</integer>
+	</dict>
+</array>
+</plist>

@@ -245,7 +245,7 @@ SnapKitPractice(미완)
 SnapKitPractice(완)
 --------------------------
 * 20190711_목:[실습]
-Kingfisher Demo
+Kingfisher Demo 
 --------------------------
 * 20190712_금:[연습]
 CollectionView

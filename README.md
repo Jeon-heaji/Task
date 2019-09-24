@@ -208,7 +208,7 @@ MusicAppExample
 ----------------------
 * 20190614_금:[연습]
 TestReturn
-WeatherForecast(완성)
+WeatherForecast(완성)  
 -------------------------
 * 20190617_월:[수업]
 SandboxDirectoryExample

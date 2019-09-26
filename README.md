@@ -273,10 +273,3 @@ AppStoreExample(+)
 IdusAppClone (+)
 --------------------
  
-   
-      
-      
-     
-  
- 
-   

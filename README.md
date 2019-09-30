@@ -274,5 +274,5 @@ IdusAppClone (+)
 --------------------
 
 * 20190930_월
-LocationWithAdd
+LocationWithAdd(+)
 --------------------

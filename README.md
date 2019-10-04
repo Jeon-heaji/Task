@@ -18,7 +18,7 @@
  * 20190314_목: [ 과제 ]
 Array, Dictionary, enum  
  -----------------------------------
- * 20190319_화: [ 과제 ]  
+ * 20190319_화: [ 과제 ]    
 Class - Property, Method 만들기, 계산기 만들기
 -------------------------------------------------
  
@@ -62,7 +62,7 @@ UserDefaults , Singleton, Delegate
 2. UISlider
 --------------------
 
-* 20190405_금: [과제]  
+* 20190405_금: [과제]    
 
 1. LoginPage _ FastCampus - code
 2. kakao_친구추가하기 - TabBar, Navigation, Delegate

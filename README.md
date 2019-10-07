@@ -73,7 +73,7 @@ UserDefaults , Singleton, Delegate
 2. UIAlertController
 Hint : ``secondVC.modalPresentationStyle = .overCurrentContext```
 --------------------
-* 20190410_수: [실습]
+* 20190410_수: [실습]   
 1. Sington_Example 
 2. Delegate_Example
 ---------------------------

@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.9.0)
+  - GoogleMaps (3.5.0):
+    - GoogleMaps/Maps (= 3.5.0)
+  - GoogleMaps/Base (3.5.0)
+  - GoogleMaps/Maps (3.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.5.0):
+    - GoogleMaps/Base (= 3.5.0)
+  - Kingfisher (5.8.1):
+    - Kingfisher/Core (= 5.8.1)
+  - Kingfisher/Core (5.8.1)
+  - Realm (3.19.0):
+    - Realm/Headers (= 3.19.0)
+  - Realm/Headers (3.19.0)
+  - RealmSwift (3.19.0):
+    - Realm (= 3.19.0)
+  - SnapKit (5.0.1)
+  - TLPhotoPicker (2.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - GooglePlaces
+  - Kingfisher
+  - RealmSwift
+  - SnapKit
+  - TLPhotoPicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - SnapKit
+    - TLPhotoPicker
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  GoogleMaps: 32ca02de09de357a10ac773f2c70f1986751392d
+  GooglePlaces: be6f19fe8aa6ff0b5bcccfa1b8805cc977ea1450
+  Kingfisher: de969e451c81ca6c07a454bc36fea84b8b08c3c7
+  Realm: 995d585bcf699aaff226715886c849a29dd3d07f
+  RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  TLPhotoPicker: 3b948586892849998d38332e632a89baba32b011
+
+PODFILE CHECKSUM: 7e65588c5417976e439a15ba2fc7c2c252bd7569
+
+COCOAPODS: 1.8.4

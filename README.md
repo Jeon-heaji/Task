@@ -18,7 +18,7 @@
  * 20190314_목: [ 과제 ]
 Array, Dictionary, enum  
  -----------------------------------
- * 20190319_화: [ 과제 ]    
+ * 20190319_화: [ 과제 ]       
 Class - Property, Method 만들기, 계산기 만들기
 -------------------------------------------------
  
@@ -39,7 +39,7 @@ Class - Property, Method 만들기, 계산기 만들기
 2. Frame VS Bousds - code
 ------------------------------------------------
 
-* 20190326_화: [ 과제 ]
+* 20190326_화: [ 과제 ]  
 
 1. UITextField 
 2. UIViewController, 
@@ -104,7 +104,7 @@ Calculator - TableView
 
 -----------------------------
 * 20190422_월:[과제]
-Higher-order Function
+Higher-order Function  
 Practice 3 
 
 -----------------------------

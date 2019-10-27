@@ -62,7 +62,7 @@ UserDefaults , Singleton, Delegate
 2. UISlider
 --------------------
 
-* 20190405_금: [과제]    
+* 20190405_금: [과제]       
 
 1. LoginPage _ FastCampus - code
 2. kakao_친구추가하기 - TabBar, Navigation, Delegate

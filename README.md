@@ -75,7 +75,7 @@ Hint : ``secondVC.modalPresentationStyle = .overCurrentContext```
 --------------------
 * 20190410_수: [실습]   
 1. Sington_Example 
-2. Delegate_Example
+2. Delegate_Example  
 ---------------------------
 * 20190411_목: [과제]
 

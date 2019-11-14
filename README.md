@@ -85,7 +85,7 @@ Hint : ``secondVC.modalPresentationStyle = .overCurrentContext```
 
  - HInt: UIPageControl 객체 사용, Delegate 이용(scroll 관련),  pagingEnabled 속성 참고
 ------------------------
-* 20190412_금: [과제]     
+* 20190412_금: [과제]         
  
 TableView   
 1. TableViewMultipleSelection

@@ -51,7 +51,7 @@ Example3 - review
 
 * 20190402_화: [과제]
      
-1. Type Casting    
+1. Type Casting      
 2. StroyboardSegue  
 --------------------------
 

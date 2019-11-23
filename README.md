@@ -67,7 +67,7 @@ UserDefaults , Singleton, Delegate
 1. LoginPage _ FastCampus - code
 2. kakao_친구추가하기 - TabBar, Navigation, Delegate
 ------------------------------
-* 20190409_화: [과제]
+* 20190409_화: [과제]   
 
 1. AutoLayout - storyboard, code
 2. UIAlertController

@@ -122,7 +122,7 @@ ScrollView
 * 20190502_목:[수업]
 SingleLinkedList
 ------------------------
-* 20190506_일:[연습]
+* 20190506_일:[연습]  
 Notification 
 TextField, Label - NotificationCenter
 ----------------------------

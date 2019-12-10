@@ -41,7 +41,7 @@ Class - Property, Method 만들기, 계산기 만들기
 
 * 20190326_화: [ 과제 ]  
 
-1. UITextField 
+1. UITextField   
 2. UIViewController,     
 
 ------------------------

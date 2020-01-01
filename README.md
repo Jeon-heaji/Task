@@ -77,7 +77,7 @@ Hint : ``secondVC.modalPresentationStyle = .overCurrentContext```
 1. Sington_Example 
 2. Delegate_Example  
 ---------------------------
-* 20190411_목: [과제]     
+* 20190411_목: [과제]        
 
 1. Initializer -Designated Initializer, Convenience Initializer, Failable Initializer
 2. UIScrollView 에 UIPageControl을 사용하여 현재 페이지를 표시하는 화면 만들기

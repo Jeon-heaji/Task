@@ -106,7 +106,7 @@ Calculator - TableView
 -----------------------------
 * 20190422_월:[과제]
 Higher-order Function  
-Practice 3 
+Practice 3   
 
 -----------------------------
 

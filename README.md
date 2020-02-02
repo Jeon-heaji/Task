@@ -137,7 +137,7 @@ TextField, Label - NotificationCenter
 InstagramImagePicker Starter
 --------------------------
 
-* 20190510_금:[과제]
+* 20190510_금:[과제]  
 MapKit   
 --------------------------
 

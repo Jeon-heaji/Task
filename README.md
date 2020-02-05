@@ -80,7 +80,7 @@ Hint : ``secondVC.modalPresentationStyle = .overCurrentContext```
 * 20190411_목: [과제]        
 
 1. Initializer -Designated Initializer, Convenience Initializer, Failable Initializer
-2. UIScrollView 에 UIPageControl을 사용하여 현재 페이지를 표시하는 화면 만들기
+2. UIScrollView 에 UIPageControl을 사용하여 현재 페이지를 표시하는 화면 만들기  
 ->UIScrollView - AutoLayout, Frame, Stroyboard
 
  - HInt: UIPageControl 객체 사용, Delegate 이용(scroll 관련),  pagingEnabled 속성 참고

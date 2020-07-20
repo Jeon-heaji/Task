@@ -27,7 +27,7 @@ Class - Property, Method 만들기, 계산기 만들기
  접근제한자, 추상화/캡슐화/상속성/다형성
  --------------------------------------------------
  * 20190322_금:  [ 과제 ]
-
+ 
 1. UISwitch : On, Off 가 바뀔 때마다 Label 의 내용이 On, Off 로 표시되도록 구현
 2. UISegmentedControl : 선택 내용이 바뀔 때마다 Label 의 내용도 해당 타이틀 값으로 함께 변경되도록 구현
    Hint - valueChanged

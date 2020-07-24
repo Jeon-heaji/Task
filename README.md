@@ -32,7 +32,7 @@ Class - Property, Method 만들기, 계산기 만들기
 2. UISegmentedControl : 선택 내용이 바뀔 때마다 Label 의 내용도 해당 타이틀 값으로 함께 변경되도록 구현
    Hint - valueChanged
 ----------------------------------------------------
-
+  
 * 20190325_월: [ 과제 ]   
        
 1. AlertController -code

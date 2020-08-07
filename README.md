@@ -54,7 +54,7 @@ Example3 - review
 1. Type Casting        
 2. StroyboardSegue    
 --------------------------
-
+  
 * 20190404_목: [과제]
 UserDefaults , Singleton, Delegate
 
